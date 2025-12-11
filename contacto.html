@@ -1,0 +1,71 @@
+<!doctype html
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+    </head>
+    <body>
+     <h1>Uso de otras etiquetas</h1>
+     <h1>enlaces</h1>
+     <p>La etiqueta &lt;a&gt; se utiliza para crear enlaces en HTML.</p>
+     <a href="index.html">Ir a la página de inicio</a>
+     <a href="contacto.html">Ir a la página de contacto</a>
+     <h1>Tablas</h1>
+     <p>La etiqueta &lt;table&gt; se utiliza para crear tablas en HTML.</p>
+     <p>El elemento border se utiliza para agregar un borde a la tabla.</p>
+     <p>La etiqueta &lt;tr&gt; se utiliza para definir una fila en una tabla.</p>
+        <p>La etiqueta &lt;th&gt; se utiliza para definir una celda de encabezado en una tabla.</p>
+     <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>28</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>34</td>
+            <td>Barcelona</td>
+        </tr>
+        <tr>
+            <td>Lucía</td>
+            <td>22</td>
+            <td>Valencia</td>
+        </tr>
+        </table>
+    <h1>Formularios</h1>
+    <p>La etiqueta &lt;form&gt; se utiliza para crear formularios en HTML.</p>
+    <p>El atributo action define a dónde se envían los datos del formulario.</p>
+    <p>El atributo method define el método de envío de los datos (GET o POST).</p>
+    <P>Elementos dentro de lformulario</P>
+    <p>la etiqueta &lt;label&gt; se utiliza para definir etiquetas para los campos del formulario.</p>
+    <p>El atributo for se utiliza para asociar una etiqueta con un campo de entrada específico.</p>
+    <h1>Campos de entrada</h1>
+    <p>la etiqueta &lt;input&gt; se utiliza para crear campos de entrada en el formulario.</p>
+    <p>El atributo type define el tipo de campo de entrada (texto, correo electrónico, etc.).</p>
+    <p>El atributo id define un identificador único para el campo de entrada.</p>
+    <p>El atributo name define el nombre del campo de entrada, que se utiliza para identificar los datos enviados.</p>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Enviar">
+        <h1>Listas desplegables</h1>
+        <p>La etiqueta &lt;select&gt; se utiliza para crear listas desplegables en el formulario.</p>
+        <p>La etiqueta &lt;option&gt; se utiliza para definir las opciones dentro de una lista desplegable.</p>
+        <p>el atributo value se utiliza para especificar el valor que se enviará cuando se seleccione una opción.</p>
+        <label for="opciones">Elige una opción:</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        
+    </body>
+</html>
